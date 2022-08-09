@@ -156,7 +156,7 @@
     "linkinator": "^2.14.5",
     "lint-staged": "^11.2.6",
     "make-promises-safe": "^5.1.0",
-    "minimatch": "^3.0.4",
+    "minimatch": "^5.1.0",
     "mkdirp": "^1.0.4",
     "mock-express-response": "^0.3.0",
     "mockdate": "^3.0.5",
