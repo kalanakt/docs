@@ -96,7 +96,7 @@ jobs:
       - if: ${{ failure() && env.FREEZE != 'true'}}
         name: Create issue from file
         id: github-github-broken-link-report
-        uses: peter-evans/create-issue-from-file@b4f9ee0a9d4abbfc6986601d9b1a4f8f8e74c77e
+        uses: peter-evans/create-issue-from-file@d00d5f85767f1dcb7b9762d7ee9a926a1ef50cd6
         with:
           token: ${{ env.GITHUB_TOKEN }}
           title: ${{ steps.check.outputs.title }}
