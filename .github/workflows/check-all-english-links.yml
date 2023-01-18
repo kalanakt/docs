@@ -106,7 +106,7 @@ jobs:
       - if: ${{ failure() }}
         name: Create issue from file
         id: broken-link-report
-        uses: peter-evans/create-issue-from-file@b4f9ee0a9d4abbfc6986601d9b1a4f8f8e74c77e
+        uses: peter-evans/create-issue-from-file@b772f2141bcbf79f0033f88321a5da658f61526a
         with:
           token: ${{ env.GITHUB_TOKEN }}
           title: ${{ steps.check.outputs.title }}
